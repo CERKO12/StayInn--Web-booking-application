@@ -2,14 +2,16 @@
 
 cd client  
 
-yarn install  
+npm install  
 
-yarn start  
+npm start  
+
+In another terminal,
 
 cd api  
 
-yarn install  
+npm install  
 
-yarn start  
+npm start  
 
 Place the .env file in the api folder
