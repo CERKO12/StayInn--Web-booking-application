@@ -47,10 +47,18 @@
   cursor: pointer;
 }
 
+.headerCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+  width: 100%; 
+}
+
 .headerSearch {
   height: 30px;
   background-color: white;
-  border: 3px solid #febb02;
+  border: 3px solid lightgray;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -60,10 +68,6 @@
   bottom: -25px;
   width: 100%;
   max-width: 1024px;
-}
-
-.headerIcon {
-  color: lightgray;
 }
 
 .headerSearchItem {

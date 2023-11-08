@@ -5,11 +5,11 @@ const PropertyList = () => {
   const {data, reFecth} = useFetch("http://localhost:8800/api/hotels/countByType")
 
   const images = [
-    "https://cf.bstatic.com/xdata/images/xphoto/square300/57584488.webp?k=bf724e4e9b9b75480bbe7fc675460a089ba6414fe4693b83ea3fdd8e938832a6&o=",
-    "https://cf.bstatic.com/static/img/theme-index/carousel_320x240/card-image-apartments_300/9f60235dc09a3ac3f0a93adbc901c61ecd1ce72e.jpg",
-    "https://cf.bstatic.com/static/img/theme-index/carousel_320x240/bg_resorts/6f87c6143fbd51a0bb5d15ca3b9cf84211ab0884.jpg",
-    "https://cf.bstatic.com/static/img/theme-index/carousel_320x240/card-image-villas_300/dd0d7f8202676306a661aa4f0cf1ffab31286211.jpg",
-    "https://cf.bstatic.com/static/img/theme-index/carousel_320x240/card-image-chalet_300/8ee014fcc493cb3334e25893a1dee8c6d36ed0ba.jpg",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_gyUKTzD-1YzbVzk_QgRe-1AIoL2mIaz6Ow&usqp=CAU",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4ilQ1tajvef5mulD6Rt8gvg-rE2W_Kfo5xg&usqp=CAU",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqXdM6AzNwdJdogGDfAnK7ZDW1H7luWVV6Yw&usqp=CAU",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEiFG-fiscSH8mUg4ucFiOSlCgR6iwZ4A3zw&usqp=CAU",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyN2S-9h1B4CJ8j4gWXLuyF6o85j9anynhBg&usqp=CAU",
   ];
 
   

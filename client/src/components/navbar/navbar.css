@@ -23,5 +23,6 @@
   border: none;
   padding: 5px 10px;
   cursor: pointer;
-  color: #02390e;
+  background-color: #02390e;
+  color: white;
 }
