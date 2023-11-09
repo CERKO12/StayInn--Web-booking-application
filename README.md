@@ -23,6 +23,8 @@ cd api => yarn install => yarn start
 ### Design Document
 [Project 3 - StayInn-  Web Booking App.pdf](https://github.com/CERKO12/StayInn--Web-booking-application/files/13304354/Project.3.-.StayInn-.Web.Booking.App.pdf)
 
+### Class Link
+[CS5610-Web Development](https://johnguerra.co/classes/webDevelopment_fall_2023/)
 
 ### Screenshots
 StayInn homepage
