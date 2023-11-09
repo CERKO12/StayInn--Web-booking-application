@@ -20,6 +20,10 @@ cd api => yarn install => yarn start
 ```
 * Place the .env file in the api folder
 
+### Design Document
+[Project 3 - StayInn-  Web Booking App.pdf](https://github.com/CERKO12/StayInn--Web-booking-application/files/13304354/Project.3.-.StayInn-.Web.Booking.App.pdf)
+
+
 ### Screenshots
 StayInn homepage
 ![home](screenshots/1.png)
