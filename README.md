@@ -15,8 +15,8 @@ This is a full-stack web-based hotel booking platform designed to offer a seamle
 ### Instruction to build
 * Download this project as zip file or clone to your own gits
 ```
-cd client => yarn install => yarn start
-cd api => yarn install => yarn start
+cd client => yarn install or npm install => yarn start or npm start
+cd api => yarn install or npm install => yarn start or npm start
 ```
 * Place the .env file in the api folder
 
