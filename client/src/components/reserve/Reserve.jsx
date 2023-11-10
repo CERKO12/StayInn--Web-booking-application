@@ -5,6 +5,7 @@ import "./reserve.css";
 import useFetch from "../../hooks/useFetch";
 import { useContext, useState } from "react";
 import { SearchContext } from "../../context/SearchContext";
+import PropTypes from "prop-types"
 
 const Reserve = ({ setOpen, hotelId }) => {
   const [selectedRooms, setSelectedRooms] = useState([]);
@@ -113,3 +114,8 @@ const Reserve = ({ setOpen, hotelId }) => {
 };
 
 export default Reserve;
+
+Reserve.propTypes = {
+  setOpen: PropTypes.func.isRequired,
+  hotelId: PropTypes.string.isRequired
+}
