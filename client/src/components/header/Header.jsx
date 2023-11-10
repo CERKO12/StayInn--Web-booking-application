@@ -9,6 +9,7 @@ import { useNavigate } from "react-router-dom";
 import { SearchContext } from "../../context/SearchContext";
 import { AuthContext } from "../../context/AuthContext";
 import { Link} from "react-router-dom";
+import PropTypes from "prop-types";
 
 const Header = ({ type }) => {
   const [destination, setDestination] = useState("");
