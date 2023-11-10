@@ -1,5 +1,6 @@
 import "./searchItem.css";
 import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
 
 const SearchItem = ({ item }) => {
   return (
@@ -32,3 +33,21 @@ const SearchItem = ({ item }) => {
 };
 
 export default SearchItem;
+
+SearchItem.propTypes = {
+  item: PropTypes.shape({
+    address: PropTypes.string.isRequired,
+    cheapestPrice: PropTypes.number.isRequired,
+    city: PropTypes.string.isRequired,
+    desc: PropTypes.string.isRequired,
+    distance: PropTypes.string.isRequired,
+    featured: PropTypes.bool.isRequired,
+    name: PropTypes.string.isRequired,
+    photos: PropTypes.arrayOf(PropTypes.string).isRequired,
+    rating: PropTypes.number.isRequired,
+    rooms: PropTypes.array.isRequired,
+    title: PropTypes.string.isRequired,
+    type: PropTypes.string.isRequired,
+    _id: PropTypes.string.isRequired,
+  })
+}
