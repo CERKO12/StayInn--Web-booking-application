@@ -11,6 +11,7 @@ This is a full-stack web-based hotel booking platform designed to offer a seamle
 * User Authentication: Secure user authentication system.Users can sign up, log in.
 * Real-Time Search and reserve: Real-time search results and filtering options based on location, price, and max people. Users can reserve a hotel from the results.
 * Detailed Hotel Information: Each listing will provide detailed information, including images, room availability.
+* Admin Dashboard: For hotel owners and admins to manage user information and hotel information including CRUD.
 
 ### Instruction to build
 * Download this project as zip file or clone to your own gits
