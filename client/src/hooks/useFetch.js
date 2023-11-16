@@ -1,24 +1,37 @@
-import {useEffect, useState} from "react"
+import { useEffect, useState } from "react";
 
 const useFetch = (url) => {
-    const [data, setData] = useState([])
+  const [data, setData] = useState([]);
 
-    useEffect(() => {
-        async function fetchData() {
-            const response = await fetch(url);
-            const result = await response.json();
-            setData(result);
+  useEffect(() => {
+    const fetchData = () => {
+      const xhr = new XMLHttpRequest();
+      xhr.onreadystatechange = () => {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+          const result = JSON.parse(xhr.responseText);
+          setData(result);
         }
-        fetchData();
-    }, []);
+      };
+      xhr.open("GET", url, true);
+      xhr.send();
+    };
 
-    const reFetch = async() => {
-        const response = await fetch(url);
-        const result = await response.json();
+    fetchData();
+  }, [url]);
+
+  const reFetch = () => {
+    const xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = () => {
+      if (xhr.readyState === 4 && xhr.status === 200) {
+        const result = JSON.parse(xhr.responseText);
         setData(result);
-    }
+      }
+    };
+    xhr.open("GET", url, true);
+    xhr.send();
+  };
 
-    return {data, reFetch};
-}
+  return { data, reFetch };
+};
 
 export default useFetch;
