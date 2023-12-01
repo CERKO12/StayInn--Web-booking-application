@@ -1,3 +1,19 @@
+<!-- 
+Peer review by Zhiqian Zhang
+
+Project Objective and Scope:
+1. The objective is clearly defined and highlights the project's focus on delivering a seamless booking experience using modern web technologies like AJAX, React, and MongoDB.
+2. The use of specific technologies is appropriately justified in terms of the benefits they bring to the project (e.g., smooth updates with AJAX, responsive UI with React).
+3. The color palette is professional and the design is user-friendly.
+
+Something You May Want to Improve:
+1. You may want to fix the thumbnail in the Google Form submission since it shows a broken image now.
+2. The deployed website link is very slow and took about 1 minute to show the actual website. You may want to check what's going on.
+3. When I tried to register and/or log in on the deployed website, it seems that the buttons don't work.
+
+-->
+
+
 ## StayInn - Web Booking Application
 
 ### Project Objective
