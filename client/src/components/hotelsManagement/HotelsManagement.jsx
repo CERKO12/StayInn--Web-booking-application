@@ -322,17 +322,19 @@ const HotelsManagement = () => {
                   <td>{hotel.desc}</td>
                   <td>{hotel.rating}</td>
                   <td>{hotel.cheapestPrice}</td>
-                  <button onClick={handleHotelDelete} value={hotel._id}>
-                    Delete
-                  </button>
-                  <button
-                    onClick={() => {
-                      setShowUpdateModal(true);
-                      setSelectedHotel(hotel);
-                    }}
-                  >
-                    Update
-                  </button>
+                  <td>
+                    <button onClick={() => handleHotelDelete(hotel._id)}>
+                      Delete
+                    </button>
+                    <button
+                      onClick={() => {
+                        setShowUpdateModal(true);
+                        setSelectedHotel(hotel);
+                      }}
+                    >
+                      Update
+                    </button>
+                  </td>
                 </tr>
               );
             })}
